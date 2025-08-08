@@ -1,0 +1,53 @@
+.terms-container {
+  padding: 50px 20px;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  color: #2c2c2c;
+}
+
+.terms-content h1 {
+  font-size: 32px;
+  color: #002366;
+  margin-bottom: 10px;
+}
+
+.terms-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.terms-content h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #005eff;
+}
+
+.terms-content ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.terms-content ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .terms-container {
+    padding: 30px 15px;
+  }
+
+  .terms-content h1 {
+    font-size: 24px;
+  }
+
+  .terms-content h2 {
+    font-size: 18px;
+  }
+
+  .terms-content p, .terms-content ul li {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,136 @@
+.top-deals-section {
+  background: #f4f4f5; /* neutral subtle gray */
+  padding: 20px 0;     /* compact vertical spacing */
+  border-top: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db;
+  margin-top: 0;
+}
+
+.section-heading .heading-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.4rem;
+}
+
+.heading-underline {
+  width: 60px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0 auto 10px;
+  border-radius: 4px;
+}
+
+.top-deals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  padding: 0 10px;
+}
+
+.top-deals-header h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.deal-timer-badge {
+  background-color: #fef3c7;
+  color: #92400e;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.deal-ended {
+  color: #dc2626;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.deal-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.deal-img {
+  width: 100%;
+  height: 110px; /* smaller for compact look */
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.deal-title {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #1f2937;
+  height: 36px;
+  margin-bottom: 5px;
+}
+
+.deal-prices {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.new-price {
+  color: #ea580c;
+  font-weight: 700;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #9ca3af;
+  font-size: 11px;
+}
+
+.buy-button {
+  background-color: #f97316;
+  color: white;
+  padding: 5px 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #ea580c;
+}
+
+/* Mobile horizontal scroll */
+.hide-scrollbar {
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.top-deals-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 4px 10px;
+}
+
+.top-deals-row .deal-card {
+  min-width: 160px;
+  max-width: 180px;
+  flex-shrink: 0;
+}

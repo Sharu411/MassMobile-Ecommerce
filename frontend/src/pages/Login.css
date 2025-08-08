@@ -1,0 +1,72 @@
+body {
+  background-color: #ffffff; /* White */
+  font-family: 'Segoe UI', sans-serif;
+  color: #2E2E2E; /* Charcoal Grey text */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #4169E1; /* Royal Blue border */
+  border-radius: 5px;
+  font-size: 16px;
+  outline-color: #007BFF; /* Electric Blue on focus */
+}
+
+input:focus {
+  box-shadow: 0 0 3px #007BFF;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF; /* Electric Blue */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #007BFF; /* Electric Blue */
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+h2 {
+  color: #4169E1; /* Royal Blue */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+p.success {
+  color: #39FF14; /* Neon Green for success */
+}
+
+p.error {
+  color: #FF3B30; /* Red for error messages */
+}

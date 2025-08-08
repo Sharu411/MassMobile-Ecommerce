@@ -1,0 +1,73 @@
+.highlights-section {
+  background: white; /* red to peach gradient */
+  padding: 40px 0;
+  color: red;
+}
+
+.highlight-card {
+  background-color: rgba(255, 255, 255, 0.05); /* light transparent overlay */
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon-style {
+  font-size: 2rem;
+  color:red; /* light yellow icon to match peach */
+  margin-bottom: 10px;
+}
+
+.label-style {
+  color:red;
+  font-weight: 600;
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .highlight-card {
+    padding: 8px 6px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .icon-style {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+  }
+
+  .label-style {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  .highlights-section {
+    padding: 15px 0;
+  }
+}
+
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 10px 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container .highlight-card {
+  min-width: 150px;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}

@@ -1,0 +1,97 @@
+/* Core Theme Colors */
+:root {
+  --primary-blue: #002366;
+  --electric-blue: #005eff;
+  --charcoal-grey: #333333;
+  --accent-yellow: #FFD700;
+  --accent-yellow-hover: #e6c200;
+  --hot-red: #E50914;
+  --white: #ffffff;
+}
+/* Prevent horizontal overflow caused by AOS animations */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Main Background */
+.home-main {
+  background-color: var(--white);
+  color: var(--charcoal-grey);
+}
+
+/* Welcome Section */
+.welcome-section {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 3rem 1rem;
+}
+
+.paragraph-text {
+  max-width: 800px;
+  text-align: justify;
+  color: #f1f1f1;
+  margin: 0 auto;
+  font-size: 1.125rem; /* default font size (18px) */
+}
+
+/* Responsive font adjustments for smaller screens */
+@media (max-width: 768px) {
+  .welcome-section h2 {
+    font-size: 1.75rem; /* smaller headline */
+  }
+
+  .welcome-section h3 {
+    font-size: 1.25rem; /* smaller subheadline */
+  }
+
+  .paragraph-text {
+    font-size: 1rem; /* paragraph text to 16px */
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .welcome-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .paragraph-text {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* Typography */
+.accent-yellow-text {
+  color: var(--accent-yellow);
+}
+.whitebg {
+  color: var(--white) !important;
+}
+
+/* Buttons */
+.btn-accent {
+  background-color: var(--accent-yellow);
+  color: #000;
+  font-weight: 600;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: var(--accent-yellow-hover);
+  color: #000;
+}
+
+/* Optional Utility Classes */
+.electric-hover:hover {
+  color: var(--electric-blue) !important;
+}
+
+.red-badge {
+  background-color: var(--hot-red);
+  color: #fff;
+}

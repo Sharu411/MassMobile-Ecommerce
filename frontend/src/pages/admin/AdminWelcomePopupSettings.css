@@ -1,0 +1,24 @@
+.popup-settings-container {
+  padding: 24px;
+  text-align: center;
+}
+
+.popup-action-row {
+  flex-wrap: wrap;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.popup-action-row .ant-col {
+  margin-bottom: 8px;
+}
+
+.preview-image {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.label {
+  margin-left: 8px;
+  font-weight: 500;
+}

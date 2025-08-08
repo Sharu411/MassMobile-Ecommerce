@@ -1,0 +1,64 @@
+.gallery-wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+.main-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Scroll container: horizontal scroll only if needed */
+.thumbnail-scroll-wrapper {
+  overflow-x: auto;
+  margin-top: 10px;
+
+  /* Hide scrollbar visually */
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.thumbnail-scroll-wrapper::-webkit-scrollbar {
+  display: none;             /* Chrome/Safari */
+}
+
+/* Flex layout for thumbnail row */
+.thumbnail-strip {
+    width:70px;
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+/* Thumbnail style */
+.thumbnail {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-shrink: 0; /* prevent shrinking */
+  transition: border 0.2s ease;
+}
+
+.thumbnail:hover {
+  border: 2px solid #00e5ff;
+}
+
+.active-thumbnail {
+  border: 2px solid #00e5ff;
+}
+.thumbnail-scroll-wrapper {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+.thumbnail-scroll-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+.thumbnail-scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}

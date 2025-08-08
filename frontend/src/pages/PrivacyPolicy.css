@@ -1,0 +1,31 @@
+.privacy-policy {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  line-height: 1.7;
+}
+
+.privacy-policy h2 {
+  color: #002366;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.privacy-policy h4 {
+  color: #005eff;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.privacy-policy ul {
+  padding-left: 20px;
+}
+
+.privacy-policy li {
+  margin-bottom: 8px;
+}

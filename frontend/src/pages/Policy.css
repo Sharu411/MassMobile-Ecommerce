@@ -1,0 +1,36 @@
+.policy-page {
+  padding: 20px;
+  max-width: 850px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.policy-page h1 {
+  font-size: 28px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.policy-page h2 {
+  font-size: 20px;
+  color: #00509e;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.policy-page p, .policy-page li {
+  font-size: 16px;
+}
+
+.policy-page ul, .policy-page ol {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.policy-page a {
+  color: #0077cc;
+  text-decoration: underline;
+}

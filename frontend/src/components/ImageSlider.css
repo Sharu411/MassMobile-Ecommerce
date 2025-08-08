@@ -1,0 +1,21 @@
+
+.carousel-wrapper {
+  width: 98vw;        /* Full viewport width */
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.slider-image {
+  width: 98vw;
+  height: 520px;
+  object-fit: cover;   /* Adjust to 'contain' if needed */
+}
+
+@media (max-width: 768px) {
+  .slider-image {
+    aspect-ratio: 4 / 3;       /* For smaller screens, taller images */
+     height: 170px;
+     object-fit: contain; 
+  }
+}
