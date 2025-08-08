@@ -1,0 +1,25 @@
+# Ignore node_modules and build folder inside frontend
+/frontend/node_modules/
+/frontend/build/
+
+# Ignore PHP backend vendor or cache folders (uncomment if you use these)
+/backend/vendor/
+/backend/cache/
+
+# Ignore environment or config files if you want (optional)
+/backend/.env
+/frontend/.env
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore database dumps if you want (optional)
+/db/*.sql
+
+# Ignore IDE/editor config files (optional)
+.vscode/
+.idea/
